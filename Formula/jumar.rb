@@ -5,21 +5,21 @@ class Jumar < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-aarch64-apple-darwin.tar.xz"
-      sha256 "b0c7fea18e81702f92d9afe5ec983691d2865557a81376e3df4284468d599475"
+      sha256 "ddcdd94cc00c2c53c2ad9d7f0610c4340be73be106575907f98d1a3411e0ff13"
     end
     if Hardware::CPU.intel?
       url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-x86_64-apple-darwin.tar.xz"
-      sha256 "71b0d2620966c0f8fbfc99a0020749b9ecbecd54b25ff1e4a4ad6cf3320f0571"
+      sha256 "7e5d87bc0de3c0173501fa7a889f0ed31d2035c983210cac320984170c22415f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "09961d3aa5478f5e758defc6668f09f86d2d389da1b55caecadacf515b61a2f0"
+      sha256 "5d559e9940dbab402821aa3407c5b65097879ed74ce51d4282d33bf546dd2d0d"
     end
     if Hardware::CPU.intel?
       url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "243b824a9c7373ca7172facefbefe3c8e1c0727ff832366bfa261130e47dc375"
+      sha256 "b49fec521d25d1e8b94bd09063e522694f391719c14aff646360adbd4dac7bb7"
     end
   end
   license "MIT"
