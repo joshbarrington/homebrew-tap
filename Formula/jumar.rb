@@ -1,25 +1,25 @@
 class Jumar < Formula
   desc "Manage git worktrees by editing them as a text buffer."
   homepage "https://github.com/joshbarrington/jumar"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-aarch64-apple-darwin.tar.xz"
-      sha256 "ddcdd94cc00c2c53c2ad9d7f0610c4340be73be106575907f98d1a3411e0ff13"
+      url "https://github.com/joshbarrington/jumar/releases/download/v0.2.0/jumar-aarch64-apple-darwin.tar.xz"
+      sha256 "dc80a073da4c4cad70bd439ad62bb35a23b4ec5c92c94f25b267982dbcead72c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-x86_64-apple-darwin.tar.xz"
-      sha256 "7e5d87bc0de3c0173501fa7a889f0ed31d2035c983210cac320984170c22415f"
+      url "https://github.com/joshbarrington/jumar/releases/download/v0.2.0/jumar-x86_64-apple-darwin.tar.xz"
+      sha256 "1b4ac2fd66c8dc5ca7f236922c84024fe3476cbf256f9a964ab50c9f591ad1be"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "5d559e9940dbab402821aa3407c5b65097879ed74ce51d4282d33bf546dd2d0d"
+      url "https://github.com/joshbarrington/jumar/releases/download/v0.2.0/jumar-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "6ebda816b2d93f70f3871e2c39629dff617ff9351e829e230c4d9fabea618bab"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/joshbarrington/jumar/releases/download/v0.1.0/jumar-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "b49fec521d25d1e8b94bd09063e522694f391719c14aff646360adbd4dac7bb7"
+      url "https://github.com/joshbarrington/jumar/releases/download/v0.2.0/jumar-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "7f761a737d6fa59c27d32e934db67122503ae50c1aa8795f59d7427aff0c9388"
     end
   end
   license "MIT"
